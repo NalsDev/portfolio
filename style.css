@@ -1,9 +1,11 @@
 body{
   text-align:center;
+  padding:0px;
+  margin: 0px;
 }
 
 #header-section{
-  background-color:#94ccd0
+  background-color:#94ccd0;
 }
 
 #about{
@@ -30,10 +32,52 @@ a,p,button{
   font-family: "Quattrocento Sans", serif;
   font-weight: 400;
   font-style: normal;
+  font-size:16px;
 }
 
-h4{
-  font-family: "Libre Baskerville", serif;
-  font-weight: 400;
+h1, h4{
+  font-family:"Libre Baskerville", serif;
+  font-weight: 00;
   font-style: normal;
+}
+
+h1{
+  font-size:28px;
+  line-height:25px;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.identity-class{
+  display:flex;
+  align-items:start;
+  justify-content:start;
+  flex-direction:column;
+  line-height:2.5px;
+}
+
+.identity-class.p, h4{
+  margin:0px;
+  padding:0px;
+}
+
+#header-section, #about, #services, #skills, #portfolio, #contact, #hireme{
+  padding:30px 115px;
+}
+
+#header-section button{
+  background-color:white;
+  border:none;
+  padding:10px;
+  margin-top:15px;
+}
+
+button{
+  background-color:#94ccd0;
+  border:none;
+  padding:10px;
 }
