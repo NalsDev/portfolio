@@ -1,0 +1,33 @@
+body{
+  text-align:center;
+}
+
+#header-section{
+  background-color:#94ccd0
+}
+
+#about{
+  background-color:#f1faee;
+}
+
+#services{
+  background-color:#E9C46A;
+}
+
+#skills{
+  background-color:#f1faee;
+}
+
+#portfolio{
+  background-color:#2A9D8F;
+}
+
+#contact{
+  background-color:#264653
+}
+
+p{
+  font-family: "Quattrocento Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}

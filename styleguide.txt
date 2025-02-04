@@ -1,0 +1,9 @@
+only in two colors which will be simple and effective
+
+In light Background - white and rose
+In dark background - black and rose
+
+for body text lora 
+
+heading - 20px
+body - 14px
