@@ -25,7 +25,8 @@ body{
 }
 
 #contact{
-  background-color:#264653
+  background-color:#264653;
+  color:white;
 }
 
 a,p,button{
