@@ -82,3 +82,15 @@ button{
   border:none;
   padding:10px;
 }
+
+.skills-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.skills-img0{
+  height:110px;
+  width:110px
+}
