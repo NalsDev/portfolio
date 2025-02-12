@@ -13,10 +13,6 @@ body{
   /* border-bottom:#264653 2px solid; */
 }
 
-#services{
-  background-color:#E9C46A;
-}
-
 #skills{
   background-color:#f1faee;
 }
@@ -114,3 +110,30 @@ button{
   text-align: start;
   line-height:1.5;
 }
+
+.contact-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  text-align: start;
+}
+
+.connect-container{
+  display:flex;
+  flex-direction:column;
+}
+
+.logos-class{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+
+.contact-logo{
+  height:43px;
+}
+
+.contact-logo1{
+  position: relative;
+  bottom:10px;
+} 
