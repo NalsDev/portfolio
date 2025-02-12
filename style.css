@@ -10,6 +10,7 @@ body{
 
 #about{
   background-color:#f1faee;
+  /* border-bottom:#264653 2px solid; */
 }
 
 #services{
@@ -102,10 +103,14 @@ button{
   justify-content:space-between;
   align-items: center;
   text-align:start;
+  line-height:1.5;
+  column-gap:40px;
+  margin-top:30px;
 }
 
 .aboutme-container{
   display:grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1.2fr;
   text-align: start;
+  line-height:1.5;
 }
