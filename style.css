@@ -21,7 +21,7 @@ body{
 }
 
 #portfolio{
-  background-color:#2A9D8F;
+  background-color:#D5E8E0;
 }
 
 #contact{
@@ -93,4 +93,12 @@ button{
 .skills-img0{
   height:110px;
   width:110px
+}
+
+.project-card{
+  display:flex;
+  flex-direction:row;
+  flex:1;
+  justify-content:space-between;
+  align-items: center;
 }
