@@ -25,3 +25,12 @@ function closeMenu(){
     });
   });
 }
+
+window.addEventListener("scroll", function () {
+  const header = document.querySelector(".header-class");
+  if (window.scrollY > 70) { 
+    header.classList.add("scrolled"); // Add class when scrolled
+  } else {
+    header.classList.remove("scrolled"); // Remove class at the top
+  }
+});
