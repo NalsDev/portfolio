@@ -14,7 +14,7 @@ body{
 
 #about{
   background-color:#f1faee;
-  /* border-bottom:#264653 2px solid; */
+  border-bottom:2px dashed #264653;
 }
 
 #skills{
@@ -61,16 +61,43 @@ h1{
 }
 
 #header-section button{
-  background-color:white;
-  border:none;
-  padding:10px;
+  background-color:#FFFFFF;
+  color:black;
+  padding:12px;
   margin-top:15px;
+  border-radius:2px;
+  border:none;
+  box-shadow: 3px 3px 10px rgba(0, 123, 255, 0.2);
+  transition: background-color 0.25s, color 0.25s, opacity 0.25s;
 }
 
-button{
-  background-color:#94ccd0;
+#header-section button:hover{
+  background-color:#264653;
+  color:white;
+}
+
+#header-section button:active{
+  opacity:0.8;
+}
+
+.hire-button{
+  background-color:#754892;
+  color:white;
   border:none;
-  padding:10px;
+  padding:13px 18px;
+  box-shadow: 3px 3px 10px rgba(122, 181, 184, 0.2);
+  border-radius:2px;
+  transition:background-color 0.25s, color 0.25s, opacity 0.25s;
+  margin-bottom:20px;
+}
+
+.hire-button:hover{
+  background-color:#76B65E;
+  color:black;
+}
+
+.hire-button:active{
+  opacity:0.8;
 }
 
 .skills-container{
