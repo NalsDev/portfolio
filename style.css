@@ -177,7 +177,7 @@ h1{
 
 .logos-class{
   display:grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:50% 50%;
 }
 
 .contact-logo{
@@ -225,7 +225,7 @@ h1{
   flex-direction:column;
   justify-content:space-around;
   position:absolute;
-  top:2.3rem;
+  top:3rem;
   right:2rem;
 }
 
@@ -324,6 +324,24 @@ h1{
     width:100px;
   }
 
+  .project-card{
+    grid-template-columns:100%;
+  }
+
+  .project-img{
+    width:100%;
+    height:320px;
+  }
+
+  .pro-img-class{
+    object-fit:cover;
+  }
+
+  .project-info{
+    width:95%;
+    margin-left:20px;
+  }
+
   .contact-container{
     flex-direction:column;
   }
@@ -363,6 +381,16 @@ h1{
   }
 
   .project-card{
-    
+    grid-template-columns:100%;
+  }
+
+  .project-img{
+    width:100%;
+    height:300px;
+  }
+
+  .project-info{
+    width:90%;
+    margin-left:10px;
   }
 }
