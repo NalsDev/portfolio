@@ -162,6 +162,26 @@ h1{
   object-position:center;
 }
 
+.demo-link {
+  color: white;
+  background: linear-gradient(45deg, #5E3B76, #8A6BA8);
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.demo-link:hover {
+  background: linear-gradient(45deg, #8A6BA8, #5E3B76);
+}
+
+.demo-repo-class{
+  display:flex;
+  align-items:center;
+  column-gap:18px;
+}
+
 .contact-container{
   display:flex;
   flex-direction:row;
