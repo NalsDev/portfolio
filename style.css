@@ -48,8 +48,12 @@ h1{
   line-height:25px;
 }
 
-#header-section, #about, #services, #skills, #portfolio, #contact, #hireme{
+#header-section, #about, #services, #skills, #contact, #hireme{
   padding:30px 115px;
+}
+
+#portfolio{
+  padding:30px 250px;
 }
 
 .info-class{
@@ -82,15 +86,31 @@ button{
 }
 
 .project-card{
-  display:flex;
-  flex-direction:row;
-  flex:1;
-  justify-content:space-between;
+  display:grid;
+  grid-template-columns:50% 50%;
   align-items: center;
   text-align:start;
   line-height:1.5;
-  column-gap:40px;
   margin-top:30px;
+  column-gap:10px;
+  border:2px dotted #264653;
+}
+
+.project-img{
+  width:90%;
+  height:370px;
+  text-align:center;
+}
+
+.pro-img-class{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.project-info{
+  width:90%;
 }
 
 .aboutme-container{
